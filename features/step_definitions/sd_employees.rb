@@ -1,5 +1,3 @@
-require 'pry'
-
 Given /^I post to the rest API (.*) (.*) (.*)$/ do |name,salary,age|
   @browser.employees.post(name, salary, age)
 end
